@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/728/680/985/biblioteca-disea-estanterias-interior-wallpaper-preview.jpg'); /* Fondo tipo biblioteca */
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 30px 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.volver {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #5a4333; /* más oscuro */
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.volver:hover {
+  background-color: #3f2f21; /* más oscuro */
+}
+
+.estante {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.libro {
+  background-color: rgba(75, 54, 39, 0.9); /* marrón más oscuro y menos transparente */
+  color: #fff; /* texto blanco para mejor contraste */
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+
+.libro h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #f3e8d0; /* tono claro para el título */
+}
+
+.libro a {
+  background-color: #3e2e1f; /* botón más oscuro */
+  color: #f3e8d0; /* texto del botón claro */
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.libro a:hover {
+  background-color: #2c1e12; /* hover aún más oscuro */
+}
